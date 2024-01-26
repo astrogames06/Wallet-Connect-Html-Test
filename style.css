@@ -19,3 +19,17 @@
 .sc-AxmLO .web3modal-modal-card .web3modal-provider-container .web3modal-provider-card[data-provider="coinbasewallet"] .web3modal-provider-title {
     font-weight: bold; /* Customize the title font weight as needed */
 }
+
+.sc-AxmLO .web3modal-modal-card .web3modal-provider-container .web3modal-provider-card[data-provider="coinbasewallet"] {
+    background-color: #0664FF; /* Customize the background color as needed */
+    color: #ffffff; /* Customize the text color as needed */
+    border: none; /* Remove border or customize as needed */
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .sc-AxmLO .web3modal-modal-card .web3modal-provider-container .web3modal-provider-card[data-provider="coinbasewallet"] {
+        font-size: 14px; /* Customize the font size as needed for smaller screens */
+        /* Add any additional adjustments for smaller screens */
+    }
+}
