@@ -8,6 +8,32 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   </head>
   <body>
+
+    <style>
+      /* Add this style to your HTML file or in a separate CSS file */
+.sc-AxmLO .web3modal-modal-card .web3modal-provider-container .web3modal-provider-card[data-provider="coinbasewallet"] {
+    background-color: #0664FF; /* Customize the background color as needed */
+    color: #ffffff; /* Customize the text color as needed */
+    border: none; /* Remove border or customize as needed */
+}
+
+.sc-AxmLO .web3modal-modal-card .web3modal-provider-container .web3modal-provider-card[data-provider="coinbasewallet"]:hover {
+    background-color: #0044CC; /* Customize the hover background color as needed */
+}
+
+.sc-AxmLO .web3modal-modal-card .web3modal-provider-container .web3modal-provider-card[data-provider="coinbasewallet"] button {
+    color: #ffffff; /* Customize the button text color as needed */
+}
+
+.sc-AxmLO .web3modal-modal-card .web3modal-provider-container .web3modal-provider-card[data-provider="coinbasewallet"] button:hover {
+    color: #ffffff; /* Customize the button hover text color as needed */
+}
+
+.sc-AxmLO .web3modal-modal-card .web3modal-provider-container .web3modal-provider-card[data-provider="coinbasewallet"] .web3modal-provider-title {
+    font-weight: bold; /* Customize the title font weight as needed */
+}
+
+    </style>
     <!-- Construct a Bootstrap layout -->
     <div class="container">
       <div class="row">
@@ -99,6 +125,8 @@
     <script type="text/javascript" src="https://unpkg.com/evm-chains@0.2.0/dist/umd/index.min.js"></script>
     <script type="text/javascript" src="https://unpkg.com/@walletconnect/web3-provider@1.2.1/dist/umd/index.min.js"></script>
     <script type="text/javascript" src="https://unpkg.com/fortmatic@2.0.6/dist/fortmatic.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/web3modal@1.9.0/dist/providers/coinbasewallet.js"></script>
+
 
     <!-- This is our example code -->
     <script type="text/javascript" src="./script.js"></script>
