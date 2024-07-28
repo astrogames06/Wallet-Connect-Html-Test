@@ -51,10 +51,10 @@
 
 <i class="fa-regular fa-moon"></i>
 
-<div class="navbar w-full flex justify-end h-14 items-center dark:bg-zinc-800 bg-slate-300">
+<div class="navbar w-full flex justify-end h-14 items-center dark:bg-zinc-800 bg-[#FAFAFA]">
 	<w3m-button id="w3m-main-button" class="mr-5"/>
 	<button id="toggleDarkModeBtn" on:click={toggleDarkMode}>
-		<Fa icon={!isDarkMode ? faSun : faMoon} class="mr-5" />
+		<Fa icon={!isDarkMode ? faSun : faMoon} class="mr-5 text-zinc-800 dark:text-white" />
 	</button>
 	
 </div>
